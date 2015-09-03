@@ -35,5 +35,14 @@ Needed HW modifications
 
 2) the MCU TX/RX pins are not available by default so these need to be wired out, I connected them to WG0 and WG1. See images/TXRX_wiring.jpg.
 
+3) the socketed EEPROM (24c256) can be removed as it is not utilized.
 
+Compilation
+===========
 
+The code/main.asm file can be directly compiled with MPLAB IDE.
+
+Uploading
+=========
+
+To upload the code onto the keypad, ISP wires need to be added. Any PIC16F73 capable programmer can be used e.g. PICKIT 3. At least on my unit the original firmware was protected so backing up the original firmware is not possible.
