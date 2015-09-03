@@ -33,7 +33,7 @@ Needed HW modifications
 1) for programming the PIC16F73 controller ISP wires need to be added
    I used PICKIT3 for programming
 
-2) the MCU TX/RX pins are not available by default so these need to be wired out, I connected them to WG0 and WG1. See images/TXRX_wiring.jpg.
+2) the MCU TX/RX pins are not available by default so these need to be wired out, I connected them to WG0 and WG1 (removing the diodes to isolate them). See images/TXRX_wires.jpg.
 
 3) the socketed EEPROM (24c256) can be removed as it is not utilized.
 
