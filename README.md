@@ -15,14 +15,14 @@ The code implements
 
 Text based protocol
 ===================
-1) Commands to the kaypad unit are single letter
+1) Commands to the keypad unit are single letter
  - 'Y' / 'y' : toggle yellow LED on/off
  - 'G' / 'g' : toggle green LED on/off
  - 'R' / 'r' : toggle relay on/off
  - 'B' / 'b' : toggle buzzer on/off
  All commands are acked by "OK\r\n" sequence.
 
-2) Messages sent by the kaypad
+2) Messages sent by the keypad
  - "Bx\r\n" button press, x is "1234567890*#"
  - "Txxxxxxxxxx\r\n" RFID tag detected xxxxxxxxxx is tag data
  - "Terr\r\n" RFID tag parity error
